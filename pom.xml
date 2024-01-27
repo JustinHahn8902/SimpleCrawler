@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SimpleCrawling</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-install-plugin -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-install-plugin</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lucene-analyzers-common-8.9.0</artifactId>
+            <scope>system</scope>
+            <version>8.9.0</version>
+            <systemPath>${project.basedir}/libs/lucene-analyzers-common-8.9.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lucene-core-8.9.0</artifactId>
+            <scope>system</scope>
+            <version>8.9.0</version>
+            <systemPath>${project.basedir}/libs/lucene-core-8.9.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lucene-demo-8.9.0</artifactId>
+            <scope>system</scope>
+            <version>8.9.0</version>
+            <systemPath>${project.basedir}/libs/lucene-demo-8.9.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lucene-queryparser-8.9.0</artifactId>
+            <scope>system</scope>
+            <version>8.9.0</version>
+            <systemPath>${project.basedir}/libs/lucene-queryparser-8.9.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>jsoup-1.17.2</artifactId>
+            <scope>system</scope>
+            <version>8.9.0</version>
+            <systemPath>${project.basedir}/libs/jsoup-1.17.2.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.crew102</groupId>
+            <artifactId>rapidrake</artifactId>
+            <version>0.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-codecs</artifactId>
+            <version>8.9.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

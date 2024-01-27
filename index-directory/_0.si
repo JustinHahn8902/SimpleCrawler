@@ -1,0 +1,32 @@
+    version 8.9.0
+    min version 8.9.0
+    number of documents 1050
+    uses compound file true
+    diagnostics 10
+      key os
+      value Windows 11
+      key java.vendor
+      value Oracle Corporation
+      key java.version
+      value 21.0.2
+      key java.vm.version
+      value 21.0.2+13-LTS-58
+      key lucene.version
+      value 8.9.0
+      key os.arch
+      value amd64
+      key java.runtime.version
+      value 21.0.2+13-LTS-58
+      key source
+      value flush
+      key os.version
+      value 10.0
+      key timestamp
+      value 1706335753544
+    attributes 0
+    files 2
+      file _0.si
+      file _0.scf
+    id Ñ@ŽeDpi³#8$›kð
+    sort 0
+checksum 00000000000999510891
